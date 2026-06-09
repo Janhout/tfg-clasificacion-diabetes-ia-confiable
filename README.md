@@ -122,7 +122,8 @@ Durante el proceso de entrenamiento se generan y almacenan los siguientes elemen
 - Codificador de etiquetas (label_encoder.joblib)
 - Matrices de confusión (matriz_confusion_*.joblib)
 - Parámetros de los modelos (parametros_modelos.json)
-- Resultados de evaluación (resultados_*.joblib)
+- Resultados de evaluación en CV (resultados_modelos_cv.joblib)
+- Resultados de evaluación sobre el conjunto de test del modelo seleccionado (resultados_final_test.joblib)
 - Resultados de Predicción Conforme (resultados_finales_cp.joblib)
 - Datos de diagramas de fiabilidad (diagramas_fiabilidad.joblib)
 
